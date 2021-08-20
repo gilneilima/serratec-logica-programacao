@@ -1,0 +1,1 @@
+console.log("Bom dia, boa tarde e boa noite!");

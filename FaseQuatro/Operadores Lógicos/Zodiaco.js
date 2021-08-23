@@ -9,7 +9,7 @@ var aquario = signo == "aquario";
 
 
 if (aquario){
-    console.log("Você é o mais inteligente");
+    console.log("Você é o mais inteligente");//Poderia ter colocado direto dentro do switch, tal como os outros.
 }
 else{
 

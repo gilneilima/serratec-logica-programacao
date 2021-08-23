@@ -2,7 +2,22 @@
 
 const prompt = require("prompt-sync")();
 
-const mascara = 1; // Digito 1 representa SIM para uso da máscara
+
+const temperatura = 37.5;
+
+console.log("IGREJA MUNDIAL DOS PROGRAMADORES");
+
+var afericao = prompt("Qual a temperatura aferida? ");
+var mascara = prompt("Próxima pessoa a entrar está usando máscara? Digite sim ou nao. ");
+
+var permitir = (afericao < temperatura) && (mascara == 'sim');
+
+console.log("Pode entrar." + permitir);
+
+
+
+//Opção de código
+/* const mascara = 1; // Digito 1 representa SIM para uso da máscara
 const temperatura = 37.5;
 
 
@@ -25,4 +40,4 @@ if (permitir){
 }
 else{
     console.log("Volte e ponha sua máscara!");
-}
+} */

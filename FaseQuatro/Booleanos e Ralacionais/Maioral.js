@@ -13,3 +13,17 @@ console.log("RESULTADOS:");
 console.log("Vitória do jogador 1: " + jogador1Vence);
 console.log("Vitória do jogador 2: " + jogador2Vence);
 console.log("Empate: " + empate);
+
+
+//Opção
+/* if (jogador1 > jogador2){
+    console.log("Jogador 1 VENCEU!");
+}
+else{
+    if (jogador1 < jogador2){
+        console.log("Jogador 2 VENCEU!");
+    }
+    else{
+        console.log("EMPATE");
+    }
+} */

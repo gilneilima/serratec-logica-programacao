@@ -7,7 +7,7 @@ var angulo1 = prompt("Digito o valor primeiro ângulo do vértice: ");
 var angulo2 = prompt("Digito o valor segundo ângulo do vértice: ");
 var angulo3 = prompt("Digito o valor terceiro ângulo do vértice: ");
 
-var somaAngulos = angulo1 + angulo2 + angulo3;
+var somaAngulos = (parseInt(angulo1) + parseInt(angulo2) + parseInt(angulo3));
 
 var triangulo = somaAngulos == 180;
 

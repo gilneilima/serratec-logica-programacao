@@ -20,7 +20,7 @@
 **R:** Não, a linguagem de máquina se restringe à linguagem binária (de baxo nível) e a linguagem de programação consiste em um algoritmo (em uma linguagem específica de alto nível) que será convertida em linguagem de máquina pelo computador para executar um programa.</br>
 
 **Segundo o professor, qual o percentual de importância do zero na programação?**</br>
-**R:** Conceitualmente, zero é um conceito muito importante em programação, tendo em vista a linguagem binária que é a linguagem de mais baixo nível, digo que zero corresponde a 50%, enquanto os outros 50% corresponde a um.</br>
+**R:** Conceitualmente, zero é um conceito muito importante em programação, tendo em vista a linguagem binária que é a linguagem de mais baixo nível, digo que zero corresponde a 50%, enquanto os outros 50% corresponde a todas as outras entradas.</br>
 
 **No editor de código, o que acontece ao digitar Shift + S?**</br>
 **R:** Será digitado a letra esse em maiúsculo.</br>

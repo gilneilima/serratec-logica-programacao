@@ -4,7 +4,18 @@ const prompt = require("prompt-sync")();
 
 const limiteClientes = 10;
 
-console.log("Há cliente da fila para entrar!" );
+var quantidade = prompt("Quantas pessoas temos na loja? ");
+
+var permitir = parseInt(quantidade) < limiteClientes;
+
+console.log("Cliente pode entrar na loja? " + permitir);
+
+
+
+
+
+//Opção com IF
+/* console.log("Há cliente da fila para entrar!" );
 
 var quantidade = prompt("Quantas pessoas temos na loja agora? ");
 
@@ -16,6 +27,6 @@ if (permitir){
 
  else{
     console.log("Aguarde, loja lotada!")
-}
+} */
 
  

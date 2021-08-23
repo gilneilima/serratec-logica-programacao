@@ -2,5 +2,5 @@
 
 const prompt = require("prompt-sync")();
 
-var aposta  = (2 + 4 + 8 + 2 + 6 + 8 ) - (5 - 3 - 7 - 3 - 1 - 9);
+var aposta  = (2 + 4 + 8 + 2 + 6 + 8 - 5 - 3 - 7 - 3 - 1 - 9);
 console.log("O resultado Betmais é " + aposta);

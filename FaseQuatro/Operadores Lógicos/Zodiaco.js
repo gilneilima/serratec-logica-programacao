@@ -2,8 +2,14 @@
 
 const prompt = require("prompt-sync")();
 
+var dia = prompt("Qual o dia de seu nascimento? ");
+var mes = prompt("Qual o mês de seu nascimento? ");
+var inteligente = mes == 2;
 
-var signo = prompt("Qual seu signo? ");
+console.log("Você é o mais inteligente: " + inteligente);
+
+
+/* var signo = prompt("Qual seu signo? ");
 var cavaleiros = "";
 var aquario = signo == "aquario";
 
@@ -31,4 +37,4 @@ else{
     var saida = "Sobre seu signo: " + cavaleiros;
     console.log(saida);
 
-}
+} */

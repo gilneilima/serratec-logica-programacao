@@ -1,3 +1,7 @@
+/*Proposição de Requisito: Squad 1.*/
+
+/*Resolvido por Gilnei Lima. Squad 2*/
+
 /* Solicite o nome e a data de nascimento do usuário. Com essas informações, será gerado o
 signo e uma descrição genérica e aleatória de sua personalidade. */
 

@@ -1,11 +1,8 @@
-/* # Serratec - Parque Tecnológico Região Serrana
-* Lógica de Programação - Prof. Moises do Amaral Baddini
-* Atividade: Elicitação de Requisitos
-* Proposto por: (Descrição): Luciana Gasparini
-* Squad de Origem (Requisito): DevAneios (Squad 3)
-* Autor: Diego Faria (Esquadrão TICida - Squad 2)
-* Data: 25/08/2021
-## Descrição:
+/*Proposição de Requisito: Squad 3*/
+
+/*Resolvido por Diego Faria. Squad 2*/
+
+/*## Descrição:
 Calculadora de Páginas de leitura vs. Deadline (prazo final)
 O algoritmo proposto deve funcionar da seguinte maneira:
 Deve cumprimentar de forma simples o usuário, sem a necessidade de saber quem está

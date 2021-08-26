@@ -1,3 +1,4 @@
+/* Proposição de Requisito: Leandro Fita. */
 /* Enunciado: Máquina de Refrigerantes
 O cliente precisa de um console para uma máquina de refrigerante para quatro sabores diferentes de refrigerante. Então essa máquina deve exibir uma tela para o usuário escolher o saber do refrigerante.  Em seguida, exibir uma mensagem com o preço do valor do refrigerante. Após, exibir uma tela com opção de pagamento apresentando quatro opções de cédulas (R$ 2, R$5, R$ 10, R$50). Após o cliente escolher a opção de pagamento, exibir uma mensagem com o troco, caso o valor do refrigerante for menor do que o valor da cédula escolhida; se o valor da cédula for inferior ao valor do refrigerante, exibir uma mensagem de valor inválido e retornar o usuário para a tela de escolha das cédulas até que um opção de pagamento válida seja escolhida.
 Estou pensando em acrescentar uma opção de saída na parte do pagamento que encerraria o programa. */

@@ -1,3 +1,4 @@
+/* Proposição de Requisito: Carol Tardin. */
 /* Estou criando um novo mapa astral para minhas previsões astrológicas. 
 Para isso, os signos serão remodelados conforme a seguir: Quem nasceu no 1º trimestre do ano será do signum mar, quem nasceu no 2º trimestre será terra, no 3º trimestre será Sol e por fim, no 4º trimestre, será lua. 
 Preciso que colete a data de nascimento mas eu não preciso do ano, somente do dia e o mês. 

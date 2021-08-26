@@ -1,3 +1,7 @@
+/*Proposição de Requisito: Squad 4.*/
+
+/*Resolvido por Marcella Alzuguir. Squad 2*/
+
 /*## Descrição:
 Sempre tem aquela pessoa que sonha com algum animal e alguém fala para você jogar.
 Como a IA costuma ter a cabeça nas nuvens, ela pode sonhar também com vários animais

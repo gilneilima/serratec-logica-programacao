@@ -1,3 +1,4 @@
+/* Proposição de Requisito: Carlos.*/
 /* O Banco de sangue do Hospital H.S.C.,
 está precisando repor o seu estoque de sangue, que está abaixo do limite minimo.
 É feito uma campanha publicitária local, 

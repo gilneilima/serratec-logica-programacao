@@ -1,3 +1,4 @@
+/* Proposição de Requisito: Marcella Alzuguir. */
 /* Um posto de combustível quer saber qual de seus combustíveis tem a preferência de seus clientes. Para isso ele precisa de uma pesquisa de satisfação. Primeiramente, o cliente deve informar o tipo de combustível através dos seguintes códigos: 1.Gasolina, 2. alcool, 3.GNV e 4. diesel e 5- para optar por não responder a pesquisa. Se o cliente informar um código inválido, devemos pedir um novo código até que o mesmo seja válido. O programa encerrará caso ele informe o código 5. Após o encerramento, deve aparecer a mensagem "Obrigado" e também o combustível escolhido pelo cliente. */
 //Marcella
 const prompt = require("prompt-sync")();

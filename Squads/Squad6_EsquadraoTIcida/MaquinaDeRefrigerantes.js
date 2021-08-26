@@ -60,7 +60,7 @@ if (control1){//Pra executar o laço valor tem que ser true.
         console.log("Como prefere pagar? 💲 \n R$2 - R$5 - R$10 - R$20");
         pagamento = prompt("Pague com R$ ");
         pagInteiro = parseInt(pagamento);
-        control1 = (pagInteiro == 2.0) || (pagInteiro == 5.0) || (pagInteiro == 10.0) || (pagInteiro == 20.0);
+        
         if(control1){
         troco = (pagInteiro - Math.abs(troco));
         confereTroco = (Math.sign(troco) == -1);

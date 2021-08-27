@@ -1,0 +1,1 @@
+/* O jogo da pirâmide melhorou, e agora a escultura será alinhada conforme o seu tamanho. O jogador também irá selecionar o caractere do desenho. */

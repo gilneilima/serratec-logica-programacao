@@ -5,8 +5,6 @@ var resposta = 0;
 var control = 0;
 
 do {
-
-
     for (i = 0; i >= control; i++){
         
         control = i + 1
@@ -26,7 +24,7 @@ do {
         if (control == 5){
             console.log("F de feijão");
         }
+
+        resposta = prompt("Digite 0 para continuar >>> ");
     }
-
-
 }while (resposta == 0);

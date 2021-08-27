@@ -5,10 +5,10 @@ const prompt = require("prompt-sync")();
 
 console.log("⭐⭐⭐[ SIGNO ]⭐⭐⭐");
 
-var nome = prompt("Qual o seu nome?\t");
-var nomeMaiusculo = nome.toUpperCase();
-var data = prompt("Qual sua data de nascimento?\tdd/mm\t");
+var nome = prompt("Qual o seu nome? >>> ");
+var data = prompt("Qual sua data de nascimento?dd/mm >>> ");
 
+var nomeMaiusculo = nome.toUpperCase();
 var dataNasc = data.substring(0,5);
 
 var dia = dataNasc.substring(0,2);//recorta dia.
@@ -49,53 +49,53 @@ descGen[11] = "é sinônimo de organização e padrões, o que é bom mas pode i
 
 
 if (diaInt >= 1 && diaInt <= 31) {//retorna verdade.
-    if (mesInt >= 1 && mesInt <= 12){
+    if (mesInt >= 1 && mesInt <= 12){//retorna verdade.
         
-        if ((mesInt == 3 || diaInt > 21 && mesInt == 4 || diaInt < 20)){
+        if ((mesInt == 3 && diaInt >= 21 || mesInt == 4 && diaInt <= 20)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[0] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 4 && diaInt > 21 || mesInt == 5 && diaInt < 20)){
+        if ((mesInt == 4 && diaInt >= 21 || mesInt == 5 && diaInt <= 20)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[1] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 5 && diaInt > 21 || mesInt == 6 && diaInt < 20)){
+        if ((mesInt == 5 && diaInt >= 21 || mesInt == 6 && diaInt <= 20)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[2] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 6 && diaInt > 21 || mesInt == 7 && diaInt < 22)){
+        if ((mesInt == 6 && diaInt >= 21 || mesInt == 7 && diaInt <= 22)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[3] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 7 && diaInt > 23 || mesInt == 8 && diaInt < 22)){
+        if ((mesInt == 7 && diaInt >= 23 || mesInt == 8 && diaInt <= 22)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[4] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 8 && diaInt > 23 || mesInt == 9 && diaInt < 22)){
+        if ((mesInt == 8 && diaInt >= 23 || mesInt == 9 && diaInt <= 22)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[5] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 9 && diaInt > 23 || mesInt == 10 && diaInt < 22)){
+        if ((mesInt == 9 && diaInt >= 23 || mesInt == 10 && diaInt <= 22)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[6] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 10 && diaInt > 23 || mesInt == 11 && diaInt < 21)){
+        if ((mesInt == 10 && diaInt >= 23 || mesInt == 11 && diaInt <= 21)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[7] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 11 && diaInt > 22 || mesInt == 12 && diaInt < 21)){
+        if ((mesInt == 11 && diaInt >= 22 || mesInt == 12 && diaInt <= 21)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[8] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 12 && diaInt > 22 || mesInt == 1 && diaInt < 20)){
+        if ((mesInt == 12 && diaInt >= 22 || mesInt == 1 && diaInt <= 20)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[9] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 1 && diaInt > 21 || mesInt == 2 && diaInt < 18)){
+        if ((mesInt == 1 && diaInt >= 21 || mesInt == 2 && diaInt <= 18)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[10] + ": " + descGen[aleatorio]);
             }
-        if ((mesInt == 2 && diaInt > 19 || mesInt == 3 && diaInt < 20)){
+        if ((mesInt == 2 && diaInt >= 19 || mesInt == 3 && diaInt <= 20)){
             console.log(nomeMaiusculo + " veja o que seu signo tem reservado para você hoje:\n");
             console.log(signos[11] + ": " + descGen[aleatorio]);
             }

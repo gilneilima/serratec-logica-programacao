@@ -1,0 +1,1 @@
+/* A bilheteria do cinema reservou todas as poltronas terminadas em 6 para deficientes. A sala de projeção possui 40 lugares, e para cada um, o sistema irá imprimir se o ingresso pode ser vendido ou não. */  

@@ -1,4 +1,42 @@
 
+FaseZero/package-lock.json
+*.json
+FaseZero/node_modules
+
+FaseUm/package-lock.json
+*.json
+FaseUm/node_modules
+
+FaseDois/package-lock.json
+*.json
+FaseDois/node_modules
+
+FaseTres/package-lock.json
+*.json
+FaseTres/node_modules
+
+FaseQuatro/package-lock.json
+*.json
+FaseQuatro/node_modules
+FaseQuatro/Booleanos e Ralacionais/node_modules
+FaseQuatro/Operadores Lógicos/node_modules
+
+FaseCinco/package-lock.json
+*.json
+FaseCinco/node_modules
+
 FaseSeis/package-lock.json
 *.json
 FaseSeis/node_modules
+
+FaseSete/package-lock.json
+*.json
+FaseSete/node_modules
+
+FaseOito/package-lock.json
+*.json
+FaseOito/node_modules
+
+FaseNove/package-lock.json
+*.json
+FaseNove/node_modules
